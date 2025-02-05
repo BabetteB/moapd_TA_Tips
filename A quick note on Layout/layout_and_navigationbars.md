@@ -1,7 +1,7 @@
 # A quick note on Layout
 **OBS! This is a tip and guide to you who had difficulties with placing the content in between the top- and bottom bar - e.g. if the listview has hidden behind the bottom bar or on top of the topbar etc.**
 
-I can see that many of you have had this problem and it is a fairly simple solution to implement - but it is difficult to figure out - so i'll walk through it here with you.
+I have experienced that many have had this problem and it is a fairly simple solution to implement - but it is difficult to figure out - so i'll walk through it here with you.
 
 I want to emphasize: **ConstraintLayouts are your best friend** in android app development. ConstrainLayouts are a tool that enables you to very easily implement dynamic and adaptable UI's. Try to see if you can use it as much as possible, without nesting a FrameLayout or LinearLayout that holds the rest of the page's UI components. But ConstraintLayout has a learning curve, so lets break it down here.
 
