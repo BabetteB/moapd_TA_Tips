@@ -11,6 +11,8 @@ This means changes in the data automatically show up in the View, and user actio
 
 MVVM is commonly preferred in mobile applications because it simplifies how data is tied to what users see on the screen. Instead of writing a lot of code to manually connect changes in data to the user interface, the ViewModel takes care of making sure that whenever the data changes, the screen updates automatically - and user actions are sent back to the ViewModel without the View needing to handle much of the application’s logic.
 
+When you start working with more data and databases, you will implement your first ViewModel in exercise set for week 06, and then this pattern will start making more sense :)
+
 ## Differences between MVC and MVVM
 
 The main difference between MVC and MVVM is that in MVC, the Controller tends to handle both updating the View and dealing with the Model, so the View and Controller end up being more tightly connected. In MVVM, the ViewModel takes on most of that workload by exposing all the data the View needs, so the View only focuses on how things look. When the data in the ViewModel changes, the View updates automatically, reducing the need to manually link each change in the Model to every piece of the user interface.
